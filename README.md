@@ -1,7 +1,6 @@
 Basic scripts
 
     start: node src/server.ts
-    watch: tsc-watch --esModuleInterop src/server.ts --outDir ./dist --onSuccess \"node ./dist/server.js\
     test: jasmine
     build:npx tsc
 

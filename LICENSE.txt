@@ -18,7 +18,7 @@ Udacity expressly defines the following as falling outside the definition of
     first obtaining informed consent from the buyer (that the buyer is aware
     that the Educational Content, or such part thereof, is available at the
     Website free of charge);
-(c) providing training, support, or editorial services that use or reference the
+(c) providing training, support, or UpdateProductorial services that use or reference the
     Educational Content in exchange for a fee;
 (d) the sale of advertisements, sponsorships, or promotions placed on the
     Educational Content, or any part thereof, or the sale of advertisements,

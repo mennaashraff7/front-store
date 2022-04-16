@@ -83,7 +83,6 @@ env-example file is attached with the project with all environment variables nam
 # For Endpoints
 
 Please refer to REQUIREMENTS.md
-
 **\*\*\*\***\***\*\*\*\***Database Setup**\*\*\*\***\*\*\***\*\*\*\***
 
 # install postgress

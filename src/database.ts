@@ -3,13 +3,13 @@ import { Pool } from 'pg'
 
 dotenv.config()
 const {
+    NODE_ENV,
     POSTGRES_HOST,
     POSTGRES_PORT,
     POSTGRES_DB,
     POSTGRES_DB_TEST,
     POSTGRES_USER,
     POSTGRES_PASSWORD,
-    NODE_ENV,
     BCRYPT_PASSWORD,
     SALT_ROUNDS,
 

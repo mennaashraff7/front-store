@@ -68,13 +68,6 @@ describe('User Model', () => {
             expect(updatedUser.firstname).toBe('menna');
             expect(updatedUser.lastname).toBe('ashraf');
         }));
-        // it('Authenticate method should return the authenticated user', async () => {
-        //   const authenticatedUser = await userModel.authenticate('mohammedelzanaty', 'test123');
-        //   if (authenticatedUser) {
-        //     expect(authenticatedUser.firstname).toBe('Mohammed');
-        //     expect(authenticatedUser.lastname).toBe('Elzanaty');
-        //   }
-        // });
         it('Authenticate method should return null for wrong credentials', () => __awaiter(void 0, void 0, void 0, function* () {
             const authenticatedUser = yield userModel.authenticate('mennaAshraf', 'fakeuser');
             expect(authenticatedUser).toBe(null);

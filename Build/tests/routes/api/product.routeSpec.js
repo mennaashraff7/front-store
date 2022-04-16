@@ -54,7 +54,6 @@ describe('Products API Endpoints', () => {
                 .set('Content-type', 'application/json')
                 .set('Authorization', `Bearer ${token}`);
             expect(res.status).toBe(200);
-            //expect(res.body.data.products.length).toBe(1);
         }));
         it('should get product info', () => __awaiter(void 0, void 0, void 0, function* () {
             const res = yield request
@@ -62,7 +61,6 @@ describe('Products API Endpoints', () => {
                 .set('Content-type', 'application/json')
                 .set('Authorization', `Bearer ${token}`);
             expect(res.status).toBe(200);
-            // expect(res.body.data.product.id).toBe(1);
         }));
         it('should update product info', () => __awaiter(void 0, void 0, void 0, function* () {
             const res = yield request
@@ -74,13 +72,7 @@ describe('Products API Endpoints', () => {
                 name: 'product name',
                 price: 20,
             });
-            // const { id, name, description, price, category } = res.body.data.product;
             expect(res.status).toBe(200);
-            // expect(id).toBe(1);
-            // expect(name).toBe('product name');
-            // expect(description).toBe('product description');
-            // expect(price).toBe(20);
-            // expect(category).toBe('Electronics.');
         }));
         it('should delete product', () => __awaiter(void 0, void 0, void 0, function* () {
             const res = yield request
@@ -88,7 +80,6 @@ describe('Products API Endpoints', () => {
                 .set('Content-type', 'application/json')
                 .set('Authorization', `Bearer ${token}`);
             expect(res.status).toBe(200);
-            // expect(res.body.data.product.id).toBe(1);
         }));
     });
 });

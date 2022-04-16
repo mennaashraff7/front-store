@@ -1,4 +1,27 @@
--------------------------------------schema---------------------------------------------
+-------------------------------------------Endpoints-------------------------------------
+-Orders:
+1-GET http://localhost:3030/api/orders/
+2-PATCH http://localhost:3030/api/orders/:id
+3-Delete http://localhost:3030/api/orders/:id
+4-POST http://localhost:3030/api/orders/
+
+-Users:
+1-GET http://localhost:3030/api/users/
+2-PATCH http://localhost:3030/api/users/:id
+3-Delete http://localhost:3030/api/users/:id
+4-POST http://localhost:3030/api/users/
+
+-Product:
+1-GET http://localhost:3030/api/products/
+2-PATCH http://localhost:3030/api/products/:id
+3-Delete http://localhost:3030/api/products/:id
+4-POST http://localhost:3030/api/products/
+
+- Dashboard:
+  1-GET http://localhost:3030/api/dashboard/products-in-orders
+  2-GET http://localhost:3030/api/dashboard/users-with-orders
+  3-GET http://localhost:3030/api/dashboard/five-most-expensive
+  -------------------------------------schema---------------------------------------------
 
 ------------------------------------users table:---------------------------------
 TABLE users( id SERIAL PRIMARY KEY,

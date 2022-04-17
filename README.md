@@ -67,7 +67,8 @@ Please note if db-migrate isn't installed globally on your machine add npx befor
 
 Environment variables
 PORT=3030
-NODE_ENV=dev
+#run tests on store_test database
+NODE_ENV=test    
 POSTGRES_HOST=localhost
 POSTGRES_PORT=3000
 POSTGRES_DB=store
@@ -77,6 +78,8 @@ POSTGRES_PASSWORD=admin
 BCRYPT_PASSWORD=my-secret-password
 SALT_ROUNDS=10
 TOKEN_SECRET=12345
+
+
 
 env-example file is attached with the project with all environment variables names.
 

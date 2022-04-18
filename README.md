@@ -56,6 +56,11 @@ npm i --save-dev supertest
 npm i --save-dev @types/supertest
 
 #Commands Used
+"start": "node src/server.ts",
+"watch": "tsc-watch --esModuleInterop src/server.ts --outDir ./dist --onSuccess \"node ./dist/server.js\"",
+"jasmine": "jasmine-ts --config=./spec/support/jasmine.json",
+"test": "set NODE_ENV=test&& db-migrate up --config ./database.json -e test && tsc && jasmine && db-migrate reset",
+"build": "npx tsc"
 Test script: npm run test
 Build script: npm run build
 Run server: node build/server.js
@@ -77,8 +82,6 @@ POSTGRES_PASSWORD=admin
 BCRYPT_PASSWORD=my-secret-password
 SALT_ROUNDS=10
 TOKEN_SECRET=12345
-
-env-example file is attached with the project with all environment variables names.
 
 # For Endpoints
 
